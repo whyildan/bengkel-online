@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="media/css/style.css">
+
+    <!-- Select2 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet">
+
+    <title>Bengkel Online</title>
+  </head>
+  <body>
+    
+    
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                        <img src="https://montircdn.azureedge.net/img/app-logo.png" srcset="https://montircdn.azureedge.net/img/app-logo@1.5x.png 1.5x" itemprop="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Cara Kerja</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Layanan</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Garansi</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav navbar-right ml-auto" id="kanan">
+                    <!-- <li class="nav-item">
+                        <button class="nav-link btn btn-danger tombol" type="submit">Pesan Sekarang</button>
+                    </li> -->
+                    
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-danger tombol" href="#">Masuk</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4">Mekanik Profesional Kami Siap Datang!</h1>
+        <p class="lead">Servis mobil di lokasi Anda • Lebih hemat 30% dari bengkel • Layanan bergaransi.</p>
+    </div>
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-lg-12 info-panel">
+                <div class="row">
+                        <div class="col">
+                                <label class="servis-title" for="Merk">Pilih Mobil</label>
+                                <select class="form-control servis-form" id="Merk">
+                                    <option selected disabled hidden>Merk</option>
+                                    <optgroup label="A - C"></optgroup>
+                                    <option>Alfa Romero</option>
+                                    <option>BMW</option>
+                                    <option>Cadillac</option>
+                                </select>
+                        </div>
+                        <div class="col">
+                                <select class="form-control servis servis-form" id="Merk">
+                                    <option selected disabled hidden>Model</option>
+                                    <optgroup label="Model"></optgroup>
+                                    <option>Alfa Romero</option>
+                                    <option>BMW</option>
+                                    <option>Cadillac</option>
+                                </select>
+                        </div>
+                        <div class="col">   
+                                <select class="form-control servis servis-form" id="Merk">
+                                    <option selected disabled hidden>Tahun</option>
+                                    <optgroup label="Tahun"></optgroup>
+                                    <option>Alfa Romero</option>
+                                    <option>BMW</option>
+                                    <option>Cadillac</option>
+                                </select>
+                        </div>
+                        <div class="col">   
+                                <select class="form-control servis servis-form" id="Merk">
+                                    <option selected disabled hidden>Varian</option>
+                                    <optgroup label="Manual"></optgroup>
+                                    <option>Alfa Romero</option>
+                                    <option>BMW</option>
+                                    <optgroup label="Matic"></optgroup>
+                                    <option>Cadillac</option>
+                                </select>
+                        </div>
+                        <div class="col-3">
+                                <button class="btn btn-danger tombol-pesan form-control servis servis-form" type="submit">Pesan Sekarang</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row alasan">
+				<div class="col-sm-4">
+					<div class="reason">
+						<img src="https://montircdn.azureedge.net/img/icon-easy.png">
+						<h5 class="text-uppercase">Servis Jadi Mudah</h5>
+						<p>Pesan sekarang dan mekanik kami akan datang ke manapun dan kapanpun, termasuk Sabtu dan Minggu.</p>
+						<a class="cari-tahu" rel="help" href="#">CARI TAHU</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="reason">
+						<img src="https://montircdn.azureedge.net/img/icon-pricing.png">
+						<h5 class="text-uppercase">Harga Lebih Murah dan Jujur</h5>
+						<p>Bukan hanya jujur, harga kami lebih rendah sampai dengan 30% dari harga bengkel.</p>
+                        <br>
+                        <a class="cari-tahu" rel="help" href="#">CARI TAHU</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="reason">
+						<img src="https://montircdn.azureedge.net/img/icon-guaranteed.png">
+						<h5 class="text-uppercase">Berkualitas dan Bergaransi</h5>
+						<p>Semua mekanik kami adalah mekanik berpengalaman. Servis kami dilengkapi dengan garansi 3 bulan / 3000 km.</p>
+						<a class="cari-tahu" rel="help" href="#">CARI TAHU</a>
+					</div>
+				</div>
+        </div>
+        
+        <div class="cara-kerja">
+			<h1>Bagaimana Cara Kerjanya?</h1>
+            <p>Servis mobil di rumah atau kantor Anda dengan 3 cara mudah ini.</p>
+            
+            <div class="row">
+                <div class="col">
+                    <ul class="booking-steps">
+                        <li>
+                            <span class="step-number">1</span>
+                            <h5>DAPATKAN PENAWARAN HARGA</h5>
+                            <p>Pilih servis yang Anda butuhkan, dan ketahui langsung berapa biayanya.</p>
+                        </li>
+                        <li>
+                            <span class="step-number">2</span>
+                            <h5>JADWALKAN SERVIS ANDA</h5>
+                            <p>Pilih lokasi dan waktu servis sesuai keinginan Anda.</p>
+                        </li>
+                        <li>
+                            <span class="step-number">3</span>
+                            <h5>MOBIL ANDA DISERVIS</h5>
+                            <p>Mekanik kami akan datang dan menservis mobil Anda.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="screenshot">
+                        <img src="https://montircdn.azureedge.net/img/app-desktop.png">
+                    </div>
+                </div>
+            </div>
+
+		</div>
+
+            
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+    <script src="media/js/script.js"></script>
+  </body>
+</html>

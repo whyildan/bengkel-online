@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-right{
+    float: right;
+}
+
+.jumbotron{
+    margin-top: -56px;
+    background: url('../image/images.jpeg') no-repeat 10% 70%;
+    height: 500px;
+    border-radius: 0;
+    filter: brightness(1);
+}
+
+nav{
+    height: 87px;
+    text-transform: uppercase;
+}
+
+.tombol{
+    width: 150px;
+    background-color: #fb6e34;
+    border-color: #fb6e34;
+    border-radius: 30px;
+}
+
+.navbar-brand, .nav-link{
+    color: white !important;
+}
+
+.nav-link i{
+    text-decoration: none;
+}
+
+.black{
+    background: rgba(0, 0, 0, 1);
+    transition: .5s;
+}
+
+.jumbotron h1{
+    margin-top: 150px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron p{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.test{
+    height: 1200px;
+}
+
+.info-panel{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -120px;
+    background-color: white;
+    padding: 30px;
+}
+
+.tombol-pesan{
+    background-color: #fb6e34;
+    border-color: #fb6e34;
+}
+
+.tombol-pesan:hover{
+    background-color: #ff954e;
+    border-color: #ff954e;
+}
+
+.tombol:hover{
+    background-color: #ff954e;
+    border-color: #ff954e;
+}
+
+.cara-kerja{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cara-kerja h1{
+    font-weight: 400;
+}
+
+.cara-kerja p{
+    color: #868792;
+    margin-top: 20px;
+}
+
+.booking-steps{
+    margin-top: 70px;
+    padding-top: 80px;
+}
+
+.booking-steps li{
+    list-style: none;
+    display: list-item;
+    position: relative;
+    text-align: -webkit-match-parent;
+}
+
+.step-number{
+    float: left;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #e4e8ec;
+    font-size: 15px;
+    font-weight: 600;
+    color: #373842;
+    text-align: center;
+    padding-top: 10px;
+    vertical-align: middle;
+}
+
+
+.booking-steps li h5{
+    font-size: 15px;
+    letter-spacing: .2px;
+    font-weight: bold;
+    color: #373842;
+    margin-left: 69px;
+    text-align: left;
+    margin-bottom: -15px;
+}
+
+.booking-steps li p{
+    font-size: 15px;
+    color: #868792;
+    margin-left: 69px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.cari-tahu:hover{
+    color: #ff954e;
+}
+
+.reason a{
+    padding-top: 20px;
+}
+
+@media (min-width: 992px) { 
+
+    .servis{
+        margin-top: 44px;
+    }
+    
+    .servis-title{
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .servis-form{
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    
+    .alasan{
+        margin-top: 80px;
+    }
+    
+    .reason p{
+    
+        color: #868792;
+    }
+    
+    .reason p,h5,a{
+        text-align: center;
+    }
+    
+    .reason img{
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+    
+    .cari-tahu{
+        text-decoration: none;
+        color: #ff954e;
+        font-weight: bold;
+        padding-left: 133px;
+    }
+
+ }
